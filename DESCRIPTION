@@ -1,9 +1,13 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Tools for Splitting Strings with Regular Expressions.
+Version: 0.0.0.1
 Authors@R: 
     person("Juanita", "Rodríguez", , "y.rodrigu@uni-muenster.de", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description:  Provides a simple utility for splitting character strings using
+    regular expressions. The package demonstrates the basic structure of an R
+    package and includes functions for extracting and manipulating text
+    components based on user-defined delimiters. It was developed as part of
+    the R Packages (2nd edition) "Whole Game" tutorial.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
