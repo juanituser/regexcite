@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-The goal of regexcite is to …
+The goal of regexcite is to provide simple utilities for splitting and manipulating character strings using regular expressions. This package was developed as part of the R Packages (2nd edition) "Whole Game" tutorial and serves as an example of how to create, document, test, and distribute an R package.
 
 ## Installation
 
@@ -25,8 +25,12 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(regexcite)
-## basic example code
+str_split_one("apple,banana,orange", ",")
+#> [[1]]
+#> [1] "apple" "banana" "orange"
 ```
+
+The package demonstrates how to organize R code, write documentation, create tests, and manage package dependencies using modern R package development practices.
 
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
